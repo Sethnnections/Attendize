@@ -11,7 +11,7 @@
     あなたは最初のイベントを作成し、下記のリンクを使ってあなたのメールアドレスを確認することができます。
 </p>
 
-<div style="padding: 5px; border: 1px solid #ccc;">
+<div style="padding:6px; border: 1px solid #ccc;">
    {{route('confirmEmail', ['confirmation_code' => $confirmation_code])}}
 </div>
 <br><br>
